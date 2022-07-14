@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <!-- <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NB4ZFHF');
+  </script> -->
+  <!-- End Google Tag Manager -->
+
+  <!-- Enter a proper page title here -->
+  <title>Want to Access Your Partner Dashboard? Login here Now</title>
+
+  <!-- CSS to include bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- css to include style.css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <!-- required meta tags essential for seo and link sharing -->
+
+  <!-- Enter a proper description for the page in the meta description tag -->
+  <meta name="description"
+    content="Want to be a partner with LMS or are just logging in to see your bonus? Use this page to access your partner dashboard now and claim the bonus you have earned if you have trouble logging in send an email at events@LMS.in or call or whatsapp us at +91 7717303384">
+
+  <!-- Enter a keywords for the page in tag -->
+  <meta name="Keywords" content="ENTER_KEYWORDS_HERE">
+
+  <!-- Enter Page title -->
+  <meta property="og:title" content="Want to Access Your Partner Dashboard? Login here Now" />
+
+  <!-- Enter Page URL -->
+  <meta property="og:url" content="https://lms.quadbtech.com/partner-login" />
+
+  <!-- Enter page description -->
+  <meta property="og:description"
+    content="Want to be a partner with LMS or are just logging in to see your bonus? Use this page to access your partner dashboard now and claim the bonus you have earned if you have trouble logging in send an email at events@LMS.in or call or whatsapp us at +91 7717303384">
+
+  <!-- Enter Logo image URL for example : http://cryptonite.LMS.in/images/cryptonitepost.png -->
+  <meta property="og:image" itemprop="image" content="https://partner.LMS.in/meta-img.jpeg" />
+  <meta property="og:image:secure_url" itemprop="image" content="https://partner.LMS.in/meta-img.jpeg" />
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="315">
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon location for example :  images/cropped-Fin-270x270.jpg -->
+  <link rel="icon" href="images/logo without text.png">
+
+  <!-- Enter Page Specific CSS here. Please make sure all the CSS  -->
+  <style>
+    /* Example CSS */
+    #register-otp {
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #FCA009;
+      border-radius: 4px;
+      opacity: 1;
+      font-family: Poppins Normal;
+      color: #ffffff;
+      margin-top: 5%;
+    }
+
+    #img-register,
+    #img-login {
+      border-radius: 10px;
+    }
+
+    .btn {
+      background: linear-gradient(to top right,#FCA009, #FCB823);
+    }
+
+    /*.link {
+            position: relative;
+            display: inline-block;
+        }
+
+        .link .tip {
+            opacity: 1;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1000;
+            top: -5px;
+            right: 105%;
+            transition: 0.5s ease;
+            overflow: hidden;
+            margin-right: 20px;
+        }*/
+    #sign-up:hover,
+    #sign-in {
+      cursor: pointer;
+      ;
+    }
+
+    #getotpMob {
+      text-align: center;
+      background-color: #FCA009;
+      border-radius: 4px;
+      opacity: 1;
+      font-family: Poppins Normal;
+      color: #ffffff;
+    }
+
+    #resendItSignUp:hover {
+      cursor: pointer;
+    }
+
+    .not-found-container {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .not-found-container2 {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .not-found-containerMob {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .not-found-containerMob2 {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .not-found {
+      width: 300px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      background-color: white;
+      padding: 25px 20px 20px 20px;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+
+    .close-btn {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .close-btn2 {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .close-btn-mob {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .close-btn-mob2 {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .not-found-container-otp {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .not-found-container-invalid-num {
+      width: 100vw;
+      height: 100vh;
+      z-index: 111111;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+    }
+
+    .close-btn-invalid-num {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .close-btn-otp {
+      color: white;
+      font-size: 15px;
+      background-color: #FCA009;
+    }
+
+    .loader-container-login {
+      width: 32vw;
+      margin-top: 25px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    .loader {
+      width: 30px;
+      height: 30px;
+      border: 5px solid #FCA009;
+      border-bottom-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: 1s loader linear infinite;
+      animation: 1s loader linear infinite;
+      position: relative;
+    }
+
+    .wrong-number {
+      color: #FCA009;
+      float: right;
+      display: none;
+      cursor: pointer;
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .wrong-number-mob {
+      display: block;
+      margin-bottom: 0;
+      display: none;
+    }
+
+    @-webkit-keyframes loader {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body style="font-family: poppins normal;">
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB4ZFHF" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- Modal -->
+  <div class="modal fade" id="otp-popup" tabindex="-1" role="dialog" aria-labelledby="otp-popupTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content p-4 text-center border-0 col-lg-12 col-9 mx-auto">
+        <p id="otp-text">Message here...</p>
+        <button type="button" class="w-50 mx-auto btn btn-dark" data-dismiss="modal">Okay</button>
+      </div>
+    </div>
+  </div>
+  <section class="not-found-container-otp">
+    <div class="not-found d-flex align-items-center justify-content-center flex-column">
+      <!-- <img class="not-found-img" src="./icons/search-line.png" alt="not-found"> -->
+      <b class=" poppins-regular text-center mt-4 mb-0">
+        OTP is Incorrect!
+      </b>
+      <button class="btn poppins-medium close-btn-otp mt-4" onclick="closeIt()">Close</button>
+    </div>
+  </section>
+
+  <div class="d-none d-lg-block">
+
+    <!-- Enter code for desktop UI here -->
+    <div class="container-fluid " style="width: 100vw;">
+      <div class="row h-100">
+        <div id="particles-js" class="login-left col lg-6" style="background-color: #33333d;height: 100vh;">
+          <div class="" style="position: absolute;top: 35px;left: 35px;">
+            <a href="/"><img src="./images/quadb-icon.png"
+              style="filter: invert(90%) sepia(89%) saturate(4%) hue-rotate(187deg) brightness(110%) contrast(97%);"
+              ></a>
+          </div>
+
+          <div id="govern">
+            <div class="tube mt-5 pt-5">
+              <img src="images/Group 31@2x.png" id="img-login" width="500" style="display: none;">
+              <img src="images/welcom_LMS 4.png" id="img-register" class="mt-5 mb-3">
+              <!-- <img src="icons/Pattern.svg" class="img-fluid"
+                style="position: absolute;left: 0;bottom: 0px;width: 300px;height: 100px;">
+              <img src="icons/Pattern.svg" class="img-fluid"
+                style="position: absolute;left: 0px;bottom: 90px;width: 300px;height: 100px;"> -->
+
+              <h1 style="text-align: right;" class=" text-login">Join a Network of over</h1>
+              <h1 style="text-align: right;" class=" text-login">500 Institutions and</h1>
+              <h1 style="text-align: right;" class=" text-login">1,000 Partners Now</h1>
+              <!-- <h1 style="text-align: right;" class=" text-login">Promote Karo</h1> -->
+              <h1 style="text-align: right;display: none;" class=" text-register">Join a Network of over</h1>
+              <h1 style="text-align: right;display: none;" class=" text-register">500 Institutions and</h1>
+              <h1 style="text-align: right;display: none;" class=" text-register">1,000 Partners Now</h1>
+              <div id="govern-left">
+                <p style="text-align: right;" class=""> Earn with upto 25% Partner Bonus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col lg-6 pt-5" id="login_signup" style="height: 100vh;">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+  <section class="not-found-container-invalid-num">
+    <div class="not-found d-flex align-items-center justify-content-center flex-column">
+      <!-- <img class="not-found-img" src="./icons/search-line.png" alt="not-found"> -->
+      <b class=" poppins-regular text-center mt-4 mb-0">
+        Not Valid!
+      </b>
+      <button class="btn poppins-medium close-btn-invalid-num mt-4">Try Again</button>
+    </div>
+  </section>
+  <!-- mobile view -->
+  <div class="d-lg-none position-relative" style="width: 100vw">
+    <div class="login_signup_mob"></div>
+    <!-- Enter Code for Mobile UI here -->
+    <div class="footer"></div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.4.1.min.js "></script>
+  <script src="js/bootstrap.min.js "></script>
+  <script src="js/main.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript">
+
+    var ip = "";
+    var country = ""
+    var city = ""
+    $(document).ready(function () {
+
+      $.get("https://ipinfo.io?token=a2fcd4894b85b3", (response) => {
+        // console.log(response)
+
+        ip = response.ip
+        country = response.country
+        city = response.city
+
+      }).then(() => {
+
+        if (country !== "IN") {
+          $("#login_signup").load("template/partner_login_abroad.html")
+          $(".login_signup_mob").load("template/partner_login_mob_abroad.html")
+        } else {
+          $("#login_signup").load("template/partner_login_india.html")
+          $(".login_signup_mob").load("template/partner_login_mob_india.html")
+        }
+      })
+
+      $(".footer").load('template/footer.html');
+
+
+    })
+
+
+
+    $(".header-mobile").load('template/header-mobile.html');
+    $(".navbar-bottom").load('template/navBottom-mobile.html');
+    // mobile navbar-bottom
+    $('.navbar-bottom').addClass('navbar-fixed-bottom');
+    // header animation
+    $(window).scroll(function () {
+      var sticky = $('.header'),
+        scroll = $(window).scrollTop();
+
+      if (scroll >= 100) {
+        sticky.addClass('fixed shadow');
+      } else {
+        sticky.removeClass('fixed shadow');
+      }
+    });
+    // 
+    $(window).scroll(function () {
+      var sticky = $('.header-mobile'),
+        scroll = $(window).scrollTop();
+
+      if (scroll >= 100) {
+        sticky.addClass('fixed shadow');
+      } else {
+        sticky.removeClass('fixed shadow');
+      }
+    });
+    // for mobile bottom nav
+    var navItems = document.querySelectorAll(".mobile-bottom-nav__item");
+    navItems.forEach(function (e, i) {
+      e.addEventListener("click", function (e) {
+        navItems.forEach(function (e2, i2) {
+          e2.classList.remove("mobile-bottom-nav__item--active");
+        })
+        this.classList.add("mobile-bottom-nav__item--active");
+      });
+    });
+
+  </script>
+</body>
+
+</html>

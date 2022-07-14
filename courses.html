@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-58CTTND");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Enter a proper page title here -->
+    <title>
+      Courses we offer - choose from the top cryptocurrency courses on our
+      cryptocurrency education platform
+    </title>
+
+    <!-- CSS to include bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <link
+      rel="preload stylesheet"
+      href="css/aos.css"
+      as="style"
+      type="text/css"
+    />
+    <!-- css to include style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- required meta tags essential for seo and link sharing -->
+
+    <!-- Enter a proper description for the page in the meta description tag -->
+    <meta
+      name="description"
+      content="Seamless and informative journey paved through India's first cryptocurrency education platform is just a click away. Browse in to know more!"
+    />
+
+    <!-- Enter a keywords for the page in tag -->
+    <meta name="Keywords" content="ENTER_KEYWORDS_HERE" />
+
+    <!-- Enter Page title -->
+    <meta
+      property="og:title"
+      content="Courses we offer - choose from the top cryptocurrency courses on our cryptocurrency education platform"
+    />
+
+    <!-- Enter Page URL -->
+    <meta property="og:url" content="https://lms.quadbtech.com/courses" />
+
+    <!-- Enter page description -->
+    <meta
+      property="og:description"
+      content="Seamless and informative journey paved through India's first cryptocurrency education platform is just a click away. Browse in to know more!"
+    />
+
+    <!-- Enter Logo image URL for example : http://cryptonite.LMS.in/images/cryptonitepost.png -->
+    <meta
+      property="og:image"
+      itemprop="image"
+      content="https://partner.LMS.in/meta-img.jpeg"
+    />
+    <meta
+      property="og:image:secure_url"
+      itemprop="image"
+      content="https://partner.LMS.in/meta-img.jpeg"
+    />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon location for example :  images/cropped-Fin-270x270.jpg -->
+    <link rel="icon" href="images/logo without text.png" />
+
+    <!-- Enter Page Specific CSS here. Please make sure all the CSS  -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      form {
+        font-family: "Poppins Normal";
+      }
+
+      /* search-box */
+      .search-box {
+        height: 230px;
+        padding-top: 55px;
+        position: relative;
+        background: linear-gradient(to right, #fca009, #fcb823);
+      }
+
+      .search-box .pattern {
+        position: absolute;
+        top: 40px;
+        right: -60px;
+        transform: rotate(90deg);
+      }
+
+      .search-box h2 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Poppins Medium";
+        color: #fff;
+      }
+
+      .search-box .form-div {
+        z-index: 1;
+        position: relative;
+        width: 75%;
+      }
+
+      input.search {
+        color: #5f5982;
+        width: 85%;
+        border: 2px solid white;
+        outline: none;
+        padding: 8.5px 20px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        font-family: "Poppins Normal";
+      }
+
+      .search-icon,
+      .search-icon:focus,
+      .search-icon:hover {
+        border: none;
+        outline: none;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .search-icon img {
+        height: 44px;
+      }
+
+      /* all-courses-box */
+      .all-courses-box {
+        margin-top: 80px;
+      }
+
+      /* modified-button */
+      .modified-button {
+        margin: 0 8px;
+        font-size: 16px;
+        font-family: "Poppins Normal";
+        color: #fff;
+        background: linear-gradient(to top right, #fca009, #fcb823);
+      }
+
+      .modified-button:hover,
+      .modified-button:focus {
+        color: white;
+        background: linear-gradient(
+          40deg,
+          #303030 20%,
+          #404040 51%,
+          #606060 90%
+        );
+      }
+
+      .btn-outline-secondary:hover {
+        color: #000;
+        font-weight: normal;
+        border-color: inherit;
+        background-color: transparent;
+      }
+
+      .btn.btn-outline-secondary {
+        padding-right: 0;
+        background-image: none;
+      }
+
+      select.popular {
+        width: 110px;
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        -webkit-appearance: none;
+        background-image: url("./icons/Drop down.svg");
+        background-repeat: no-repeat;
+        background-position-x: 75px;
+        background-position-y: 7px;
+      }
+
+      select.filter {
+        min-width: 80px;
+        padding-left: 10px;
+        border: none;
+        outline: none;
+        background: none;
+        -webkit-appearance: none;
+      }
+
+      /* course-card-container */
+      .course-card-container {
+        margin-top: 80px;
+        min-height: 500px;
+      }
+
+      /* course-card */
+      .course-card {
+        float: left;
+        cursor: pointer;
+        max-width: 350px;
+        padding-top: 15px;
+        margin: 0 10px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.15);
+        height: 30rem;
+      }
+
+      .card-img-top {
+        border-radius: 5px;
+      }
+
+      .card-body {
+        padding: 1.25rem 0;
+      }
+
+      .card-title {
+        min-height: fit-content;
+        color: #282c4e;
+        font-size: 21px;
+        padding: 15px 10px 0;
+        font-family: "Poppins Medium";
+      }
+
+      .course-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+        font-family: "Poppins Normal";
+        padding: 0px 10px 15px;
+        border-bottom: 1.8px solid #efeff6;
+      }
+
+      .course-stats img {
+        max-width: 24px;
+      }
+
+      .course-stats img + span {
+        color: #5f5982;
+        margin-left: 5px;
+        font-size: 14px;
+      }
+
+      .tutor {
+        font-size: 14px;
+        color: #7a7a7a;
+        font-family: "Poppins Normal";
+      }
+
+      .tutor img {
+        width: 20px;
+        margin-right: 10px;
+      }
+
+      .price {
+        font-size: 16px;
+        color: #cac6d4;
+        font-family: "Poppins Normal";
+      }
+
+      .price span {
+        font-size: 18px;
+        color: #f68c20;
+        font-weight: bold;
+      }
+
+      .image-box {
+        position: relative;
+      }
+
+      .image-iframe {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #19408905;
+      }
+
+      .play-btn {
+        z-index: 1;
+        position: absolute;
+        top: 51.5%;
+        left: 50.5%;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+        background: url("icons/play-mini-fill.png") no-repeat white center;
+        border-radius: 50%;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+      }
+
+      .onpage-loader-bg {
+        background: linear-gradient(
+          -45deg,
+          rgba(0, 0, 0, 0.5),
+          #ffffff,
+          rgba(0, 0, 0, 0.5)
+        );
+        background-size: 1000% 1000%;
+        animation: gradient 1.5s linear infinite;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 100% 50%;
+        }
+
+        50% {
+          background-position: 50% 50%;
+        }
+
+        50.1% {
+          background-position: 50% 50%;
+        }
+
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      /* know-about */
+      .know-about {
+        position: relative;
+        margin-bottom: 80px;
+        margin-top: 40px;
+      }
+
+      .know-about-img {
+        width: 570px;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+      }
+
+      .know-about-img img {
+        width: 100%;
+        height: auto;
+      }
+
+      .partner {
+        margin-bottom: 80px;
+        background: linear-gradient(to top right, #fca009, #fcb823);
+      }
+
+      /* about-text */
+      .about-text {
+        width: 770px;
+        height: 600px;
+        padding-left: 60px;
+        background-color: #007bff40;
+      }
+
+      .about-text h2 {
+        color: #282c4e;
+        width: 65%;
+        font-size: 38px;
+        margin-bottom: 40px;
+        font-family: "Poppins Medium";
+      }
+
+      .about-text h3 {
+        display: flex;
+        width: 65%;
+        color: #5f5982;
+        font-size: 24px;
+        font-family: "Poppins Medium";
+      }
+
+      .tick-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      /* contact */
+
+      .contact-number {
+        margin-top: 40px;
+      }
+
+      .contact {
+        width: 260px;
+        border: 1px solid transparent;
+        outline: none;
+        padding: 9px 20px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+      .contact + button {
+        color: white;
+        border: none;
+        outline: none;
+        padding: 9px 20px;
+        background-color: #fca009;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      @media (max-width: 991px) {
+        .pink-btn {
+          width: 92%;
+          color: white;
+          padding: 10px 35px;
+          border-radius: 5px;
+          background-color: #fca009;
+          font-family: "Poppins Normal";
+          src: url(./fonts/Poppins-Regular.ttf);
+        }
+
+        .search-box .container {
+          flex-direction: column;
+        }
+
+        .search-box h2 {
+          font-size: 28px;
+          margin-bottom: 2rem;
+        }
+
+        .search-box .pattern {
+          height: 80px;
+          position: absolute;
+          top: 80px;
+          right: -40px;
+          transform: rotate(90deg);
+        }
+
+        .all-courses-box {
+          margin-top: 40px;
+        }
+
+        .all-courses-box > .mb-3 {
+          margin-bottom: 0 !important;
+        }
+
+        .modified-button {
+          margin: 0;
+          font-size: 15px;
+        }
+
+        .course-card-container {
+          margin-top: 40px;
+          grid-template-columns: 1fr;
+        }
+
+        .row .course-card {
+          width: 200px !important;
+          margin-bottom: 40px;
+        }
+
+        .course-card {
+          margin-bottom: 40px;
+        }
+
+        .card-body {
+          padding-bottom: 1rem;
+        }
+
+        .card-title {
+          font-size: 20px;
+          margin-bottom: 0;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+
+        .know-about {
+          margin-top: 400px;
+        }
+
+        .about-text {
+          width: 100%;
+          padding-bottom: 60px;
+        }
+
+        .know-about-img {
+          top: -380px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .deals-title h1 {
+          max-width: 80%;
+          font-size: 32px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        select.filter {
+          width: 40vw;
+        }
+
+        .search-box {
+          height: 70px;
+          padding-top: 0;
+        }
+
+        .search-box .pattern {
+          top: 20px;
+        }
+
+        .container {
+          min-width: 100%;
+        }
+
+        .all-courses-box {
+          margin-top: 20px;
+        }
+
+        .about-text {
+          height: 1000px;
+          padding-bottom: 45px;
+        }
+
+        .know-about {
+          margin-top: 20px;
+          margin-bottom: 50px;
+        }
+
+        .about-text h2 {
+          width: 80%;
+          font-size: 36px;
+        }
+
+        .about-text h3 {
+          font-size: 20px;
+        }
+
+        .know-about-img {
+          top: 45px;
+          width: 90%;
+        }
+
+        .offers-and-deals {
+          padding-top: 70px;
+        }
+
+        .deals-title {
+          flex-direction: column;
+        }
+
+        .deals-title h1 {
+          margin: 0 auto;
+          font-size: 24px;
+          text-align: center;
+          max-width: fit-content;
+        }
+
+        .view-all {
+          font-size: 14px;
+          margin: 0 auto;
+          margin-top: 20px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .search-box .form-div {
+          width: 100%;
+        }
+
+        input.search {
+          z-index: 1;
+          position: relative;
+          width: 92%;
+          font-size: 15px;
+          padding: 10px;
+          margin: 15px 0;
+          border-radius: 5px;
+          border-color: #cac6d4;
+        }
+
+        .search-icon img {
+          height: 41.8px;
+          margin-right: 10px;
+        }
+
+        .course-category .row {
+          display: flex;
+        }
+
+        .modified-button {
+          width: fit-content;
+          margin: 5px;
+          font-size: 14px;
+          padding: 8px 15px;
+        }
+
+        .row .course-card {
+          width: 100% !important;
+          margin-bottom: 30px;
+        }
+
+        .card-body {
+          padding-bottom: 12px;
+        }
+
+        .about-text {
+          height: 800px;
+          text-align: center;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
+        .about-text h2 {
+          width: 100%;
+          font-size: 21px;
+          margin-bottom: 20px;
+        }
+
+        .about-text h3 {
+          width: 100%;
+          font-size: 16px;
+          text-align: left !important;
+        }
+
+        .tick-icon {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
+
+        .contact-number {
+          margin: 0 auto;
+          margin-top: 25px;
+          text-align: center;
+        }
+
+        .contact {
+          width: 200px;
+        }
+
+        .contact-number input,
+        .contact-number button {
+          font-size: 13px;
+          text-align: center;
+        }
+
+        .contact-number button img {
+          width: 20px;
+        }
+
+        .offers-and-deals {
+          padding-top: 60px;
+          padding-bottom: 60px;
+        }
+
+        .offers-deals .carousel-item {
+          padding: 40px 0;
+        }
+
+        .offers-deals .carousel-indicators li {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      @media (max-width: 475px) {
+        .search-box .pattern {
+          display: none;
+        }
+
+        .modified-button {
+          margin: 2px;
+        }
+
+        .know-about-img {
+          width: 100%;
+          top: 0px;
+          padding: 0 15px;
+        }
+
+        .about-text {
+          height: 620px;
+          padding-bottom: 25px;
+        }
+
+        .tick-icon {
+          height: 20px;
+          width: 20px;
+          margin-right: 5px;
+        }
+
+        .contact {
+          width: 100%;
+          border-radius: 5px;
+          border-color: #cac6d4;
+        }
+
+        .contact-number {
+          width: 100%;
+          margin-top: 20px;
+        }
+
+        .contact + button {
+          width: 100%;
+          margin: 0 auto;
+          padding: 10px;
+          margin-top: 15px;
+          padding-left: 15px;
+          border-radius: 5px;
+        }
+
+        .deals-title {
+          padding-left: 15px;
+        }
+
+        .course-card {
+          margin: 0 auto;
+          margin-bottom: 25px;
+        }
+
+        .onpage-loader {
+          margin-top: 50%;
+        }
+
+        .course-stats {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      @media (max-width: 425px) {
+        .partner .about-text {
+          height: 310px;
+        }
+
+        .about-text {
+          height: 605px;
+          padding-bottom: 25px;
+        }
+
+        .header-mobile .mobile-nav {
+          background-color: #efeff6 !important;
+        }
+      }
+
+      @media (max-width: 376px) {
+        .about-text {
+          height: 590px;
+          padding-bottom: 35px;
+        }
+      }
+
+      .enter-some-keyword,
+      .not-found-container {
+        width: 100vw;
+        height: 100vh;
+        z-index: 111111;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: none;
+      }
+
+      .not-found {
+        width: 300px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 25px 20px 20px 20px;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
+
+      .not-found-img {
+        position: absolute;
+        top: -25px;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #fca009;
+      }
+
+      .close-btn {
+        color: white;
+        font-size: 15px;
+        background-color: #fca009;
+      }
+
+      .partner,
+      .partner-img {
+        z-index: 1;
+        position: relative;
+      }
+
+      canvas {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+
+  <body onload="loader()">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-58CTTND"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- loader-container -->
+    <div class="loader-container">
+      <div class="spinner-border text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- not-found-container -->
+    <section class="not-found-container">
+      <div
+        class="not-found d-flex align-items-center justify-content-center flex-column"
+      >
+        <img
+          class="not-found-img"
+          src="./icons/search-line.png"
+          alt="not-found"
+        />
+        <b class="poppins-regular text-center mt-4 mb-0">
+          No Course Data Found
+        </b>
+        <button class="btn poppins-medium close-btn mt-4">Close</button>
+      </div>
+    </section>
+    <!-- enter-some-keyword -->
+    <section class="enter-some-keyword">
+      <div
+        class="not-found d-flex align-items-center justify-content-center flex-column"
+      >
+        <img
+          class="not-found-img"
+          src="./icons/search-line.png"
+          alt="not-found"
+        />
+        <b class="error poppins-regular text-center mt-4 mb-0">
+          <!-- No Course Data Found -->
+        </b>
+        <button class="btn poppins-medium close-btn mt-4">Close</button>
+      </div>
+    </section>
+    <!-- cookies -->
+    <!-- <section class="cookies-container">
+      <div class="cookies-box">
+        <p class="poppins-regular text-justify mt-4">
+          We use Cookies and similar technologies ("Cookies") to provide ours
+          services to you, enhance your experience with our services and
+          customise the adverts you see, including through third parties.
+        </p>
+        <p class="poppins-regular text-justify">
+          Accept our use of cookies to continue on LMS website or to watch our
+          videos. For more information please refer to our
+          <a href="terms-and-conditions">terms & conditions.</a>
+        </p>
+        <div class="d-flex align-items-center justify-content-center">
+          <button class="btn poppins-medium cookies-btn">Accept Cookies</button>
+        </div>
+        <img class="cookie-img" src="./icons/cookie.png" alt="cookie" />
+      </div>
+    </section> -->
+    <!-- desktop view -->
+    <div class="d-none d-lg-block">
+      <!-- header -->
+      <div class="header fixed-top"></div>
+
+      <!-- search courses -->
+      <div class="container-fluid d-flex align-items-center search-box">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <h2 data-aos="slide-right" class="text-white">Our Courses</h2>
+
+          <div
+            class="form-div form-inline d-flex justify-content-end"
+            data-aos="slide-left"
+          >
+            <input
+              type="search"
+              name="search"
+              id="search-desktop"
+              class="search"
+              placeholder="Search for the courses you are interested in"
+            />
+            <button id="search-btn-desktop" class="search-icon">
+              <img src="./icons/Search btn.svg" alt="search icon" />
+            </button>
+          </div>
+        </div>
+        <img class="pattern" src="icons/Pattern.svg" alt="Pattern" />
+      </div>
+
+      <!-- all courses -->
+      <div
+        class="container d-flex justify-content-between all-courses-box"
+        data-aos="fade-up"
+      >
+        <!-- popular -->
+        <select class="popular-desktop popular poppins-regular">
+          <option class="dropdown-item" value="null">Popular</option>
+        </select>
+
+        <!-- course category -->
+        <div class="course-category d-flex justify-content-between">
+          <button id="all-desktop" type="button" class="btn modified-button">
+            All
+          </button>
+
+          <div class="d-flex" id="course-category-desktop"></div>
+        </div>
+
+        <!-- filter -->
+        <button class="btn btn-outline-secondary">
+          <img src="./icons/Filter icon.svg" alt="Filter icon" />
+          <select class="filter-desktop poppins-regular filter">
+            <option class="poppins-regular" value="null">Filter</option>
+          </select>
+        </button>
+      </div>
+
+      <!-- courses cards -->
+      <div
+        id="courses-container-desktop"
+        class="container course-card-container d-flex align-items-center flex-wrap"
+      ></div>
+
+      <!-- offers and deals -->
+      <div class="offers-deals"></div>
+
+      <!-- know-about -->
+
+      <!-- partner -->
+      <!-- <div id="particles-js" class="container-fluid partner"> -->
+      <!-- <div class="container d-flex align-items-center">
+          <div
+            class="about-text ml-4 pl-0 pr-4 bg-transparent d-flex align-items-start justify-content-center flex-column"
+            data-aos="slide-right"
+          >
+            <h2 class="text-white w-100 poppins-semibold">
+              Test Your Power of Influence with our <br />
+              <span style="color: #007bff">Partner Program</span>
+            </h2>
+            <h3 class="text-white w-100">
+              <img class="tick-icon" src="icons/tick.png" alt="tick" /> Earn up
+              to 25% Partner Bonus
+            </h3>
+            <h3 class="text-white w-100">
+              <img class="tick-icon" src="icons/tick.png" alt="tick" /> No
+              Withdrawal Limit
+            </h3>
+            <h3 class="text-white w-100">
+              <img class="tick-icon" src="icons/tick.png" alt="tick" />
+              Exclusive Partner Dashboard
+            </h3>
+            <a
+              href="partner"
+              class="btn w-75 mt-5 py-2 poppins-regular text-white"
+              >Be a Partner</a
+            >
+          </div>
+          <div class="partner-img">
+            <img
+              src="images/partner-home.png"
+              alt="image 48"
+              data-aos="slide-up"
+            />
+          </div>
+        </div>
+      </div> -->
+
+      <!-- footer -->
+      <div class="footer"></div>
+    </div>
+
+    <!-- mobile view -->
+    <div class="d-lg-none position-relative">
+      <!-- header -->
+      <div class="header-mobile"></div>
+      <div class="navbar-bottom fixed-bottom"></div>
+
+      <!-- search courses -->
+      <div
+        class="container-fluid d-flex align-items-center search-box"
+        style="width: 100vw; padding-right: 0%; padding-left: 0%"
+      >
+        <div class="container-fluid justify-content-between align-items-center">
+          <h2 class="text-center mt-3">Our Courses</h2>
+        </div>
+
+        <img class="pattern" src="icons/Pattern.svg" alt="Pattern" />
+      </div>
+      <div
+        class="form-div2 text-center d-flex align-items-center justify-content-center flex-column"
+      >
+        <input
+          autocomplete="off"
+          type=" search"
+          name="search"
+          id="search-mobile"
+          class="search text-center"
+          placeholder="Search for the courses you are interested in"
+        />
+        <button id="search-btn-mobile" class="search-icon pink-btn text-white">
+          Search <em>Now</em>
+        </button>
+      </div>
+
+      <!-- all courses -->
+      <div
+        class="container d-flex flex-column justify-content-between all-courses-box"
+      >
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <!-- popular -->
+          <select class="popular-mobile popular poppins-regular">
+            <option class="dropdown-item" value="null">Popular</option>
+          </select>
+
+          <!-- filter -->
+          <button class="btn btn-outline-secondary">
+            <img src="./icons/Filter icon.svg" alt="Filter icon" />
+            <select class="filter-mobile poppins-regular filter">
+              <option class="poppins-regular" value="null">Filter</option>
+            </select>
+          </button>
+        </div>
+
+        <!-- course category -->
+        <div class="course-category">
+          <div class="w-100 mt-3 mr-0 ml-0 text-center">
+            <button id="all-mobile" type="button" class="btn modified-button">
+              All
+            </button>
+            <div
+              class="d-flex flex-wrap justify-content-center"
+              id="course-category-mobile"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- courses cards -->
+      <div
+        id="courses-container-mobile"
+        class="container course-card-container d-flex flex-column"
+      ></div>
+
+      <!-- offers and deals -->
+      <div class="offers-deals"></div>
+
+      <!-- know-about -->
+      <!-- <div class="know-about d-flex">
+        <div
+          class="about-text d-flex align-items-bottom justify-content-end flex-column"
+          data-aos="fade-up"
+        >
+          <h2>
+            The Complete Diversification Package For Just <del>Rs. 29,999</del
+            ><br />
+            Rs. 6,499
+          </h2>
+          <h3>
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> Free Live
+            Notification of courses updates.
+          </h3>
+          <h3>
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> Get
+            notified about market ups and downs
+          </h3>
+          <h3>
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> 24 X 7
+            assistance
+          </h3>
+
+          <form class="form-inline d-flex contact-number">
+            <input
+              type="tel"
+              name="contact"
+              id="contact-mobile"
+              class="contact"
+              placeholder="Enter Your Mobile Number"
+            />
+            <button type="submit" class="btn pink-btn" id="send-mobile">
+              Submit<img src="./icons/arrow-right.png" alt="Submit icon" />
+            </button>
+          </form>
+        </div>
+
+        <div class="know-about-img mt-4">
+          <img src="images/Image@2x.png" alt="image 48" data-aos="fade-up" />
+        </div>
+      </div> -->
+
+      <!-- partner -->
+      <!-- <div class="container partner d-flex align-items-center flex-column">
+        <div class="partner-img mt-5">
+          <img
+            src="images/partner-home.png"
+            width="300"
+            alt="image 48"
+            data-aos="slide-up"
+          />
+        </div>
+        <div
+          class="about-text p-0 bg-transparent d-flex align-items-start justify-content-center flex-column"
+          data-aos="slide-right"
+        >
+          <h2 class="text-white w-100 poppins-semibold mb-4">
+            Test Your Power of Influence with our
+            <span style="color: #007bff">Partner Program</span>
+          </h2>
+          <h3 class="text-white w-100">
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> Earn up to
+            25% Partner Bonus
+          </h3>
+          <h3 class="text-white w-100">
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> No
+            Withdrawal Limit
+          </h3>
+          <h3 class="text-white w-100">
+            <img class="tick-icon" src="icons/tick.png" alt="tick" /> Exclusive
+            Partner Dashboard
+          </h3>
+          <a
+            href="partner"
+            class="btn w-100 mt-4 py-2 poppins-regular text-white"
+            >Be a Partner</a
+          >
+        </div>
+      </div> -->
+
+      <!-- mobile-footer -->
+      <div class="footer"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1500,
+      });
+      // load header and footer from template folder
+      $(".header").load("template/header.html");
+      $(".offers-deals").load("template/offers-deals.html");
+      $(".footer").load("template/footer.html");
+      // mobile
+      $(".header-mobile").load("template/header-mobile.html");
+      $(".navbar-bottom").load("template/test-nav-bottom.html");
+
+      // header animation
+      $(window).scroll(function () {
+        var sticky = $(".header"),
+          scroll = $(window).scrollTop();
+
+        if (scroll >= 100) {
+          sticky.addClass("fixed shadow");
+        } else {
+          sticky.removeClass("fixed shadow");
+        }
+      });
+
+      // Get viewport details
+      var val = $(window).width() > 992 ? "desktop" : "mobile";
+
+      $(`#send-${val}`).on("click", function (e) {
+        e.preventDefault();
+        var error = "";
+        var mobile = $(`#contact-${val}`).val();
+        if (mobile == "" || mobile.length !== 10) {
+          error = "Number Not Valid";
+          // No Course Data Found
+          $(".error").html(error);
+          $("body").css("overflowY", "hidden");
+          $(".enter-some-keyword").fadeIn();
+
+          $(".close-btn").on("click", () => {
+            $("body").css("overflowY", "auto");
+            $(".enter-some-keyword").css("display", "none");
+          });
+
+          $(`#contact-${val}`).css("border-color", "red");
+          $(`#contact-${val}`).css("border-width", "1px");
+          error = error + "mobile";
+          console.log(error);
+        } else {
+          $(`#contact-${val}`).css("border-color", "#BCE0FD");
+          $(`#contact-${val}`).css("border-width", "1px");
+        }
+
+        if (error == "") {
+          const time = new Date();
+          $.ajax({
+            type: "POST",
+            url: `https://apilms.quadbtech.com/api/v1/submit_number?mobile_no=${mobile}&user_type=null&device=mobile&ip_address=0.0.0.0&time=${time}`,
+            dataType: "json",
+            // data: {
+            //     mobile: mobile,
+            // },
+            success: function (obj) {
+              if (obj.status == "success") {
+                window.location = "notification-page-newuser";
+                localStorage.setItem("mobile-number", mobile);
+              } else if (obj.status == "failure") {
+                window.location = "notification-page-userexists";
+                localStorage.setItem("mobile-number", mobile);
+              }
+            },
+            error: function () {
+              alert(
+                "Sorry, there is problem at our end! we are trying to fix it!"
+              );
+            },
+          });
+        }
+      });
+
+      function iframe(embed) {
+        const iframeHTML = `<div style="height: 173px;" class="onpage-loader-bg loader-${embed}"></div><iframe class="iframe-${embed} d-none" width="100%" height="173" src="https://www.youtube.com/embed/${embed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+
+        $(`.${embed}`).html(iframeHTML);
+
+        $(`.iframe-${embed}`).on("load", () => {
+          $(`.loader-${embed}`).hide();
+          $(`.iframe-${embed}`).removeClass("d-none");
+        });
+      }
+
+      // courses page - onload
+      $(document).ready(function () {
+        $(`#all-desktop`).focus();
+        $(`#all-mobile`).focus();
+        $.ajax({
+          type: "GET",
+          url: "https://apilms.quadbtech.com/api/v1/all_courses",
+          dataType: "json",
+          success: function (courseData) {
+            if (courseData.status == "success") {
+              var category = courseData.category;
+
+              var data = courseData["data"];
+              $("#courses-container-" + val).html("");
+              var courses = [];
+              data.forEach((obj, i) => {
+                courses.push(...obj.Courses);
+                // console.log(i + '------------')
+                // console.log(courses)
+              });
+              for (var i = 0; i < courses.length; i++) {
+                var image = courses[i].course_thumb_img;
+                // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                var check_state_image = courses[i].state_logo;
+                var state_image =
+                  check_state_image !== null
+                    ? check_state_image
+                    : "icons/Rectangle 22.png";
+                $("#courses-container-" + val).html(
+                  $("#courses-container-" + val).html() +
+                    "<div id=" +
+                    courses[i].course_id +
+                    ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                    courses[i].course_video_url +
+                    '" onclick="iframe(`' +
+                    courses[i].course_video_url +
+                    '`)"><img class="w-100" src="' +
+                    image +
+                    '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                    courses[i].enrolled_students +
+                    ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                    courses[i].course_duration +
+                    ' </span></div></div><h5 class="card-title">' +
+                    courses[i].course_name +
+                    '</h5><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                    state_image +
+                    '" alt="tutor">' +
+                    courses[i].course_state +
+                    '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                    courses[i].course_base_price +
+                    "</del><span>RS: " +
+                    courses[i].course_sale_price +
+                    '</span></div></div><button id="btn-' +
+                    courses[i].course_id +
+                    '" class="btn mt-3" style="background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div></div>'
+                );
+              }
+
+              for (const course of courses) {
+                $(`#btn-${course.course_id}`).on("click", function (e) {
+                  window.location =
+                    "single-course-page?course_id=" + course.course_id;
+                });
+              }
+
+              var category = courseData.category;
+              // console.log(category);
+
+              for (var k = 0; k < category.length; k++) {
+                $(".filter").html(
+                  $(".filter").html() +
+                    '<option class="poppins-regular" value="' +
+                    category[k].category_type +
+                    '">' +
+                    category[k].category_name +
+                    "</option>"
+                );
+              }
+
+              for (var j = 0; j < category.length; j++) {
+                // alert(val);
+                $("#course-category-" + val).html(
+                  $("#course-category-" + val).html() +
+                    ' <button type="button" class="btn modified-button type-' +
+                    val +
+                    '" value="' +
+                    category[j].category_type +
+                    '">' +
+                    category[j].category_name +
+                    "</button>"
+                );
+
+                // ajax for courses type
+                $(`.type-${val}`).on("click", function () {
+                  var value = $(this).val();
+                  // alert(value)
+                  // onpage-loader
+                  $("#courses-container-" + val).html(
+                    '<div class="onpage-loader"><div class="loader"></div></div>'
+                  );
+                  $.ajax({
+                    type: "GET",
+                    url: `https://apilms.quadbtech.com/api/v1/category_all_courses?category_type=${value}`,
+                    dataType: "json",
+                    // data: {
+                    //     search: value,
+                    // },
+                    success: function (courseData) {
+                      if (courseData.status == "success") {
+                        $("#courses-container-" + val).html("");
+                        var courses = courseData["data"].Courses;
+                        for (var i = 0; i < courses.length; i++) {
+                          var image = courses[i].course_thumb_img;
+                          // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+                          var check_state_image = courses[i].state_logo;
+                          var state_image =
+                            check_state_image !== null
+                              ? check_state_image
+                              : "icons/Rectangle 22.png";
+                          $("#courses-container-" + val).html(
+                            $("#courses-container-" + val).html() +
+                              "<div id=" +
+                              courses[i].course_id +
+                              ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                              courses[i].course_video_url +
+                              '" onclick="iframe(`' +
+                              courses[i].course_video_url +
+                              '`)"><img class="w-100" src="' +
+                              image +
+                              '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                              courses[i].enrolled_students +
+                              ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                              courses[i].course_duration +
+                              ' </span></div></div><h5 class="card-title">' +
+                              courses[i].course_name +
+                              '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                              state_image +
+                              '" alt="tutor">' +
+                              courses[i].course_state +
+                              '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                              courses[i].course_base_price +
+                              "</del><span>RS: " +
+                              courses[i].course_sale_price +
+                              '</span></div></div><button id="btn-' +
+                              courses[i].course_id +
+                              '" class="btn mt-3 mb-3" style=" background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div>'
+                          );
+                        }
+
+                        for (const course of courses) {
+                          $(`#btn-${course.course_id}`).on(
+                            "click",
+                            function (e) {
+                              window.location =
+                                "single-course-page?course_id=" +
+                                course.course_id;
+                            }
+                          );
+                        }
+                      } else if (courseData.status == "failure") {
+                        alert("Something went wrong, please try later.");
+                        window.location = "courses";
+                      }
+                    },
+                    error: function () {
+                      alert(
+                        "Sorry, there is problem at our end! we are try to fix it!"
+                      );
+                    },
+                  });
+                  // call onpage()
+                  // onpage();
+                });
+              }
+            } else if (courseData.status == "failure") {
+              alert("Something went wrong, please try later.");
+              window.location = "courses";
+            }
+          },
+          error: function () {
+            alert("Sorry, there is problem at our end! we are try to fix it!");
+            window.location = "/";
+          },
+        });
+        // call onpage()
+        // onpage();
+      });
+
+      // search courses
+      $(`#search-btn-${val}`).on("click", function (e) {
+        e.preventDefault();
+        var error = "";
+        var keyword = $(`#search-${val}`).val();
+
+        if (keyword == "") {
+          $(`#search-${val}`).css("border-color", "red");
+          $(`#search-${val}`).css("border-width", "2px");
+          error = "Enter some keyword!";
+          // alert(error);
+
+          // No Course Data Found
+          $(".error").html(error);
+          $("body").css("overflowY", "hidden");
+          $(".enter-some-keyword").fadeIn();
+
+          $(".close-btn").on("click", () => {
+            $("body").css("overflowY", "auto");
+            $(".enter-some-keyword").css("display", "none");
+          });
+        } else {
+          $(`#search-${val}`).css("border-color", "#CAC6D4");
+          $(`#search-${val}`).css("border-width", "2px");
+        }
+        if (error == "") {
+          // onpage-loader
+          $("#courses-container-" + val).html(
+            '<div class="onpage-loader"><div class="loader"></div></div>'
+          );
+          $.ajax({
+            type: "GET",
+            url: `https://apilms.quadbtech.com/api/v1/all_courses_search?search=${keyword}`,
+            dataType: "json",
+            // data: {
+            //     search: keyword,
+            // },
+            success: function (courseData) {
+              if (courseData.status == "success") {
+                $(`#search-${val}`).css("border-width", "2px");
+                $(`#search-${val}`).css("border-color", "green");
+
+                $("#courses-container-" + val).html("");
+                var courses = courseData["data"];
+                for (var i = 0; i < courses.length; i++) {
+                  var image = courses[i].course_thumb_img;
+                  // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                  var check_state_image = courses[i].state_logo;
+                  var state_image =
+                    check_state_image !== null
+                      ? check_state_image
+                      : "icons/Rectangle 22.png";
+                  $("#courses-container-" + val).html(
+                    $("#courses-container-" + val).html() +
+                      "<div id=" +
+                      courses[i].course_id +
+                      ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                      courses[i].course_video_url +
+                      '" onclick="iframe(`' +
+                      courses[i].course_video_url +
+                      '`)"><img class="w-100" src="' +
+                      image +
+                      '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                      courses[i].enrolled_students +
+                      ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                      courses[i].course_duration +
+                      ' </span></div></div><h5 class="card-title">' +
+                      courses[i].course_name +
+                      '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                      state_image +
+                      '" alt="tutor">' +
+                      courses[i].course_state +
+                      '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                      courses[i].course_base_price +
+                      "</del><span>RS: " +
+                      courses[i].course_sale_price +
+                      '</span></div></div><button id="btn-' +
+                      courses[i].course_id +
+                      '" class="btn mt-3 mb-3" style="background-color: #140E38;color: white;width: 100%; ">Get the Course<em> Now</em></button></div>'
+                  );
+                }
+
+                for (const course of courses) {
+                  $(`#btn-${course.course_id}`).on("click", function (e) {
+                    window.location =
+                      "single-course-page?course_id=" + course.course_id;
+                  });
+                }
+              } else if (courseData.status == "failure") {
+                // call onpage()
+                onpage();
+                // No Course Data Found
+                $("body").css("overflowY", "hidden");
+                $(".not-found-container").fadeIn();
+                $(".close-btn").on("click", () => {
+                  $(`#search-${val}`).val("");
+                  $("body").css("overflowY", "auto");
+                  $(".not-found-container").css("display", "none");
+                  $(`#search-${val}`).css("border-width", "2px");
+                  $(`#search-${val}`).css("border-color", "#CAC6D4");
+                });
+                $(`#search-${val}`).css("border-width", "2px");
+                $(`#search-${val}`).css("border-color", "red");
+                // window.location = "courses";
+              }
+            },
+            error: function () {
+              alert(
+                "Sorry, there is problem at our end! we are try to fix it!"
+              );
+            },
+          });
+          // call onpage()
+          // onpage();
+        }
+      });
+
+      $(`#search-${val}`).on("input", function (e) {
+        if (this.value == "") {
+          // onpage-loader
+          $("#courses-container-" + val).html(
+            '<div class="onpage-loader"><div class="loader"></div></div>'
+          );
+          $.ajax({
+            type: "GET",
+            url: "https://apilms.quadbtech.com/api/v1/all_courses",
+            dataType: "json",
+            success: function (courseData) {
+              if (courseData.status == "success") {
+                var data = courseData["data"];
+                $("#courses-container-" + val).html("");
+                var courses = [];
+                data.forEach((obj, i) => {
+                  courses.push(...obj.Courses);
+                  // console.log(i + '------------')
+                  // console.log(courses)
+                });
+
+                for (var i = 0; i < courses.length; i++) {
+                  var image = courses[i].course_thumb_img;
+                  // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                  var check_state_image = courses[i].state_logo;
+                  var state_image =
+                    check_state_image !== null
+                      ? check_state_image
+                      : "icons/Rectangle 22.png";
+                  $("#courses-container-" + val).html(
+                    $("#courses-container-" + val).html() +
+                      "<div id=" +
+                      courses[i].course_id +
+                      ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                      courses[i].course_video_url +
+                      '" onclick="iframe(`' +
+                      courses[i].course_video_url +
+                      '`)"><img class="w-100" src="' +
+                      image +
+                      '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                      courses[i].enrolled_students +
+                      ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                      courses[i].course_duration +
+                      ' </span></div></div><h5 class="card-title">' +
+                      courses[i].course_name +
+                      '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                      state_image +
+                      '" alt="tutor">' +
+                      courses[i].course_state +
+                      '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                      courses[i].course_base_price +
+                      "</del><span>RS: " +
+                      courses[i].course_sale_price +
+                      '</span></div></div><button id="btn-' +
+                      courses[i].course_id +
+                      '" class="btn mt-3 mb-3" style="background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div>'
+                  );
+                }
+
+                for (const course of courses) {
+                  $(`#btn-${course.course_id}`).on("click", function (e) {
+                    window.location =
+                      "single-course-page?course_id=" + course.course_id;
+                  });
+                }
+              } else if (courseData.status == "failure") {
+                alert("Something went wrong, please try later.");
+                window.location = "courses";
+              }
+
+              $(`#search-${val}`).css("border-color", "#CAC6D4");
+              $(`#search-${val}`).css("border-width", "2px");
+            },
+            error: function () {
+              alert(
+                "Sorry, there is problem at our end! we are try to fix it!"
+              );
+            },
+          });
+          // call onpage()
+          // onpage();
+        }
+      });
+
+      // close btn
+      $(".close-btn").on("click", function () {
+        // onpage-loader
+        $("#courses-container-" + val).html(
+          '<div class="onpage-loader"><div class="loader"></div></div>'
+        );
+        $.ajax({
+          type: "GET",
+          url: "https://apilms.quadbtech.com/api/v1/all_courses",
+          dataType: "json",
+          success: function (courseData) {
+            if (courseData.status == "success") {
+              var data = courseData["data"];
+              $("#courses-container-" + val).html("");
+              var courses = [];
+              data.forEach((obj, i) => {
+                courses.push(...obj.Courses);
+                // console.log(i + '------------')
+                // console.log(courses)
+              });
+
+              for (var i = 0; i < courses.length; i++) {
+                var image = courses[i].course_thumb_img;
+                // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                var check_state_image = courses[i].state_logo;
+                var state_image =
+                  check_state_image !== null
+                    ? check_state_image
+                    : "icons/Rectangle 22.png";
+                $("#courses-container-" + val).html(
+                  $("#courses-container-" + val).html() +
+                    "<div id=" +
+                    courses[i].course_id +
+                    ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                    courses[i].course_video_url +
+                    '" onclick="iframe(`' +
+                    courses[i].course_video_url +
+                    '`)"><img class="w-100" src="' +
+                    image +
+                    '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                    courses[i].enrolled_students +
+                    ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                    courses[i].course_duration +
+                    ' </span></div></div><h5 class="card-title">' +
+                    courses[i].course_name +
+                    '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                    state_image +
+                    '" alt="tutor">' +
+                    courses[i].course_state +
+                    '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                    courses[i].course_base_price +
+                    "</del><span>RS: " +
+                    courses[i].course_sale_price +
+                    '</span></div></div><button id="btn-' +
+                    courses[i].course_id +
+                    '" class="btn mt-3 mb-3" style="background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div>'
+                );
+              }
+
+              for (const course of courses) {
+                $(`#btn-${course.course_id}`).on("click", function (e) {
+                  window.location =
+                    "single-course-page?course_id=" + course.course_id;
+                });
+              }
+            } else if (courseData.status == "failure") {
+              alert("Something went wrong, please try later.");
+              window.location = "courses";
+            }
+          },
+          error: function () {
+            alert("Sorry, there is problem at our end! we are try to fix it!");
+          },
+        });
+        // call onpage()
+        // onpage();
+      });
+
+      // all courses
+      $(`#all-${val}`).on("click", function () {
+        // onpage-loader
+        $("#courses-container-" + val).html(
+          '<div class="onpage-loader"><div class="loader"></div></div>'
+        );
+        $.ajax({
+          type: "GET",
+          url: "https://apilms.quadbtech.com/api/v1/all_courses",
+          dataType: "json",
+          success: function (courseData) {
+            if (courseData.status == "success") {
+              var data = courseData["data"];
+              $("#courses-container-" + val).html("");
+              var courses = [];
+              data.forEach((obj, i) => {
+                courses.push(...obj.Courses);
+                // console.log(i + '------------')
+                // console.log(courses)
+              });
+
+              for (var i = 0; i < courses.length; i++) {
+                var image = courses[i].course_thumb_img;
+                // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                var check_state_image = courses[i].state_logo;
+                var state_image =
+                  check_state_image !== null
+                    ? check_state_image
+                    : "icons/Rectangle 22.png";
+                $("#courses-container-" + val).html(
+                  $("#courses-container-" + val).html() +
+                    "<div id=" +
+                    courses[i].course_id +
+                    ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                    courses[i].course_video_url +
+                    '" onclick="iframe(`' +
+                    courses[i].course_video_url +
+                    '`)"><img class="w-100" src="' +
+                    image +
+                    '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                    courses[i].enrolled_students +
+                    ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                    courses[i].course_duration +
+                    ' </span></div></div><h5 class="card-title">' +
+                    courses[i].course_name +
+                    '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                    state_image +
+                    '" alt="tutor">' +
+                    courses[i].course_state +
+                    '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                    courses[i].course_base_price +
+                    "</del><span>RS: " +
+                    courses[i].course_sale_price +
+                    '</span></div></div><button id="btn-' +
+                    courses[i].course_id +
+                    '" class="btn mt-3 mb-3" style="background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div>'
+                );
+              }
+
+              for (const course of courses) {
+                $(`#btn-${course.course_id}`).on("click", function (e) {
+                  window.location =
+                    "single-course-page?course_id=" + course.course_id;
+                });
+              }
+            } else if (courseData.status == "failure") {
+              alert("Something went wrong, please try later.");
+              window.location = "courses";
+            }
+          },
+          error: function () {
+            alert("Sorry, there is problem at our end! we are try to fix it!");
+          },
+        });
+        // call onpage()
+        // onpage();
+      });
+
+      // filter
+      $(`.filter-${val}`).on("change", function () {
+        var value = $(this).val();
+        if (value == "null") {
+          $("#courses-container-" + val).html(
+            $("#courses-container-" + val).html()
+          );
+        } else if (value !== "null") {
+          // console.log(value);
+          // onpage-loader
+          $("#courses-container-" + val).html(
+            '<div class="onpage-loader"><div class="loader"></div></div>'
+          );
+          $.ajax({
+            type: "GET",
+            url: `https://apilms.quadbtech.com/api/v1/category_all_courses?category_type=${value}`,
+            dataType: "json",
+            // data: {
+            //     search: value,
+            // },
+            success: function (courseData) {
+              if (courseData.status == "success") {
+                $("#courses-container-" + val).html("");
+                var courses = courseData["data"].Courses;
+                for (var i = 0; i < courses.length; i++) {
+                  var image = courses[i].course_thumb_img;
+                  // var image = check_image.endsWith('.png') ? check_image : 'icons/Image 4.png';
+
+                  var check_state_image = courses[i].state_logo;
+                  var state_image =
+                    check_state_image !== null
+                      ? check_state_image
+                      : "icons/Rectangle 22.png";
+                  $("#courses-container-" + val).html(
+                    $("#courses-container-" + val).html() +
+                      "<div id=" +
+                      courses[i].course_id +
+                      ' class="col-sm-4 course-card" data-aos="fade-up" data-aos-offset="250" data-aos-delay="250"><div class="image-box ' +
+                      courses[i].course_video_url +
+                      '" onclick="iframe(`' +
+                      courses[i].course_video_url +
+                      '`)"><img class="w-100" src="' +
+                      image +
+                      '" alt="slide1"><div class="play-btn"></div><div class="image-iframe"></div></div><div class="card-body"><!-- card stats --><div class="course-stats"><div class="d-flex align-items-center"><img src="icons/eye.png" alt="eye"><span class="view">' +
+                      courses[i].enrolled_students +
+                      ' Enrolled Aspirants so far</span></div><div class="d-flex align-items-center"><img src="icons/orange-clock.svg" alt="time"><span class="time">' +
+                      courses[i].course_duration +
+                      ' </span></div></div><h5 class="card-title">' +
+                      courses[i].course_name +
+                      '</h5></div><div class="course-price d-flex justify-content-between align-items-center"><div class="tutor"><img src="' +
+                      state_image +
+                      '" alt="tutor">' +
+                      courses[i].course_state +
+                      '</div><div class="price d-flex align-items-end justify-content-center flex-column"><del>RS: ' +
+                      courses[i].course_base_price +
+                      "</del><span>RS: " +
+                      courses[i].course_sale_price +
+                      '</span></div></div><button id="btn-' +
+                     courses[i].course_id +
+                    '" class="btn mt-3 mb-3" style="display: block !important;background-color: #140E38;color: white;width: 100%;">Get the Course<em> Now</em></button></div>'
+                    
+                  );
+                }
+
+                // for (const course of courses) {
+                //     $(`#btn-${course.course_id}`).on("click", function (e) {
+                //         window.location = "single-course-page?course_id=" + course.course_id;
+                //     });
+                // }
+              } else if (courseData.status == "failure") {
+                alert("Something went wrong, please try later.");
+                window.location = "courses";
+              }
+            },
+            error: function () {
+              alert(
+                "Sorry, there is problem at our end! we are try to fix it!"
+              );
+            },
+          });
+          // call onpage()
+          // onpage();
+        }
+      });
+    </script>
+  </body>
+</html>

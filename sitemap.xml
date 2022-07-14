@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<!-- home -->
+<url>
+  <loc>https://lms.quadbtech.com/</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- courses -->
+<url>
+  <loc>https://lms.quadbtech.com/courses</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<!-- login-register -->
+<url>
+  <loc>https://lms.quadbtech.com/login-register</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<!-- single course -->
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=15e18729-1a4e-48f9-9370-6b961eec1e11</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=09f76668-53ee-4486-889d-c1bb73cd1405</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=6ed83b18-ac83-43c1-a6f1-b95fc6c226dd</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=82b489df-43be-40bc-bf99-eeab6b9c2f87</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=290fbc2d-557a-4abe-88ff-b184e408ef70</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://lms.quadbtech.com/single-course-page?course_id=a51c9169-6f38-4fd4-b490-ee7d6ddc59ce</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<!-- about -->
+<url>
+  <loc>https://lms.quadbtech.com/about-us</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- contact -->
+<url>
+  <loc>https://lms.quadbtech.com/contact-us</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- partner -->
+<url>
+  <loc>https://lms.quadbtech.com/partner</loc>
+  <lastmod>2021-05-05T19:56:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- terms and conditions -->
+<url>
+  <loc>https://lms.quadbtech.com/terms-and-conditions</loc>
+  <lastmod>2021-05-05T19:56:22+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<!-- privacy-policy -->
+<url>
+  <loc>https://lms.quadbtech.com/privacy-policy</loc>
+  <lastmod>2021-05-05T19:56:22+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<!-- refund-policy -->
+<url>
+  <loc>https://lms.quadbtech.com/refund-policy</loc>
+  <lastmod>2021-05-05T19:56:22+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+
+
+</urlset>
